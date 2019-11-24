@@ -15,6 +15,7 @@
 ul{
     float: right;
     padding: 20px 20px 0 0;
+    margin-top: 10px;
 }
 ul li{
     display: inline;
@@ -28,14 +29,15 @@ ul li a{
     font-family: cursive;
     font-size: 17px;
     font-weight: bold;
+    line-height: 40px;
 }
-ul li a:hover{
+.big li a:hover{
     color:rgb(57, 58, 56);
     text-decoration: transparent;
-    font-family: cursive;
-    font-size: 17px;
-    font-weight: bold;
     transition: 0.4s;
+}
+.small{
+    display: none;
 }
 
 .container{   
@@ -58,4 +60,53 @@ ul li a:hover{
     color: tomato;
 }
 
+@media only screen and (max-width:768px){
+   
+    ul{
+        float: left;
+    }
+    ul li a{
+        color: white;
+        text-decoration: none;
+        margin-top: 5px;
+        transition: 0.0s;
+    }
+    ul li li{
+        display: inline;
+        padding: 18px;
+    }    
+    .big{
+        display:none;
+    }
+    .small{
+        display:inline-block;
+    }
+    .small li a{
+        font-size: 30px;
+    }
+    .small li a:hover{
+        color: rgb(156, 48, 48);
+    }
+    
+}
 
+@media only screen and (max-width:500px){
+    ul li{
+        display: inline;
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    ul li{
+        display: inline;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width:350px){
+    ul li{
+        display: inline;
+        padding: 8px;
+    }
+}
