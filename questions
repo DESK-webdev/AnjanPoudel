@@ -1,0 +1,19 @@
+name
+{
+    company name(empty text field)
+    manager name(empty text field)
+},
+location
+{
+    country(options)
+    city(options)
+    street(empty text field)
+},
+number
+{
+    number(empty text field)
+},
+food
+{
+    items(checkbox)
+} 
