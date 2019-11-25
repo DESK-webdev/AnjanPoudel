@@ -10,7 +10,7 @@
     background-image: url(../img/back.jpg);
     background-size: cover;
     width: 100%;
-    height: 110vh;
+    height: 140vh;
 }
 ul{
     float: right;
@@ -59,7 +59,38 @@ ul li a{
 .review{
     color: tomato;
 }
+.name{
+    color: teal;
+    padding: 0 96% 0 0;
+    font-weight: bold;
+}
+.num{
+    color: teal;
+    padding: 0 10px 0 0;
+    font-weight: bold;
+    
+    
+}
+.name_input{
+    display: inline;
+    width: 48%;
+}
+.location_input{
+    display: inline;
+    width: 30%;
+}
+.form-check{
+    font-size: medium;
+    color: white;
+}
 
+.tables{
+    padding: 2rem 2px 2px 2px;
+}
+table {
+    padding: 1rem 4px 1rem 4px;
+    width: 100%;
+}
 @media only screen and (max-width:768px){
    
     ul{
