@@ -46,12 +46,15 @@
                         <option value="snacks">snacks</option>
                     </select>
                 -->     
+                <!--Name-->
                         <div class="form-group">
                             <label for="name" class="name">Names;</label>
                             <input type="text" class="form-control name_input" id="name" name="name_company" placeholder="Company Name" required>
                             <input type="text" class="form-control name_input" id="name" name="name_manager" placeholder="Manager Name" required>
                             <div class="invalid-feedback"></div>
                         </div>
+
+                <!--Location-->
                         <div class="form-group">
                             <label for="loc" class="name">Location;</label>
                             <input type="text" class="form-control location_input" id="loc" name="country" placeholder="Country" required>
@@ -59,21 +62,76 @@
                             <input type="text" class="form-control location_input" id="loc" name="street" placeholder="State" required>
                             <div class="invalid-feedback"></div>
                         </div>
+
+                <!--Phone Number-->
                         <div class="form-group form-inline">
                             <label for="number" class="num">Number:</label>
                             <input class="form-control" type="number" id="number" name="nums" placeholder="Ph/Mo Number" required>
                             <div class="invalid-feedack"></div>
                         </div>
+
+                <!--Reviews / Comment-->
                         <div class="form-group"> 
                             <label for="comment"><strong class="review">Reviews:</strong></label>
                             <textarea class="form-control" rows="5" id="comment" placeholder="Type Reviews"></textarea>
                         </div>
-                        <div>
-                            <a class="btn btn-success btn-lg mb-3 ap" role="button"> +Add Foods Here</a>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit Info</button>
-                    </form>
+                
 
+                <!--Add foods here button-->
+                        <a class="btn btn-success btn-lg mb-3" role="button" href="#add_food">+Add Foods Here</a>
+                        <div id="add_food">
+                            <h3><strong>Check foods boxes:</strong></h3>
+                            <div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="burger">
+                                    Burger
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="pizza">
+                                    Pizza
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="Hotdogs">
+                                    Hotdogs
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="cold_drinks">
+                                    Cold drinks
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="Kfc">
+                                    Kfc
+                                </label>
+                            </div>
+                        
+                        <div class="form-group"> 
+                            <label for="comment"><strong class="review">Other Foods:</strong></label>
+                            <textarea class="form-control" rows="5" id="comment" placeholder="Type Reviews"></textarea>
+                        </div>
+                        <a href="#done" class="btn btn-outline-success btn-sm">Done!</a>
+                        <div id="done">
+                            <h4><bold>Food added Successfully</bold></h4>
+                        </div>
+                    </div>
+
+                
+                <!--Submit button-->
+                <div>
+                        <button type="submit" class="btn btn-primary">Submit Info</button>
+                </div>
+            </form>
+                
+
+
+                <!--Tables-->
                     <div>
                         <a href="tables.html" role="button" class="btn btn-outline-secondary mt-3 mb-2">Go to Tables</a>
                     </div>
