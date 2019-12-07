@@ -1,0 +1,219 @@
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+    <link rel="stylesheet" href="css/style_forms.css" type="text/css">
+<body>
+    
+    <div class="main">
+           <ul class="big">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Log in</a></li>
+           </ul>
+           <ul class="small">
+                <li><a href="#"><i class="fas fa-home"></i></a></li>
+                <li><a href="#"><i class="fas fa-phone-square"></i></a></li>
+                <li><a href="#"><i class="far fa-address-book"></i></a></li>
+                <li><a href="#"><i class="fas fa-images"></i></a></li>
+                <li><a href="#"><i class="fas fa-briefcase"></i></a></li>
+                <li><a href="#"><i class="fas fa-sign-in-alt"></i></a></li>
+           </ul>
+    <div class="container">
+        <h1>Our Food Services</h1>
+        <div class="forms">
+                <form action="#" class="form_inside need-validation">
+                    <!--
+                    <select name="foods" class="custom-select mb-2">
+                        <option selected>Fast Foods</option>
+                        <option value="pizza">pizza</option>
+                        <option value="Burger">Burger</option>
+                        <option value="Hotdogs">Hotdogs</option>
+                        <option value="chips">chips</option>
+                        <option value="snacks">snacks</option>
+                    </select>
+                -->     
+                <!--Name-->
+                        <div class="form-group">
+                            <label for="name" class="name">Names;</label>
+                            <input type="text" class="form-control name_input" id="name" name="name_company" placeholder="Company Name" required>
+                            <input type="text" class="form-control name_input" id="name" name="name_manager" placeholder="Manager Name" required>
+                            <div class="invalid-feedback"></div>
+                        </div>
+
+                <!--Location-->
+                        <div class="form-group">
+                            <label for="loc" class="location">Location;</label>
+                            <input type="text" class="form-control location_input" id="loc" name="country" placeholder="Country" required>
+                            <input type="text" class="form-control location_input" id="loc" name="city" placeholder="City" required>
+                            <input type="text" class="form-control location_input" id="loc" name="street" placeholder="State" required>
+                            <div class="invalid-feedback"></div>
+                        </div>
+
+                <!--Phone Number-->
+                        <div class="form-group form-inline">
+                            <label for="number" class="num">Number:</label>
+                            <input class="form-control" type="number" id="number" name="nums" placeholder="Ph/Mo Number" required>
+                            <div class="invalid-feedack"></div>
+                        </div>
+
+                <!--Reviews / Comment-->
+                        <div class="form-group"> 
+                            <label for="comment"><strong class="review">Reviews:</strong></label>
+                            <textarea class="form-control" rows="5" id="comment" placeholder="Type Reviews"></textarea>
+                        </div>
+                
+
+                <!--Add foods here button-->
+                        <a class="btn btn-success btn-lg mb-3" role="button" href="#add_food">+Add Foods Here</a>
+                        <div id="add_food">
+                            <h3><strong>Check foods boxes:</strong></h3>
+                            <div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="burger">
+                                    Burger
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="pizza">
+                                    Pizza
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="Hotdogs">
+                                    Hotdogs
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="cold_drinks">
+                                    Cold drinks
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="Kfc">
+                                    Kfc
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="Kfc">
+                                    Kfc
+                                </label>
+                            </div><div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="Kfc">
+                                    Kfc
+                                </label>
+                            </div><div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="Kfc">
+                                    Kfc
+                                </label>
+                            </div><div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="Kfc">
+                                    Kfc
+                                </label>
+                            </div><div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="Kfc">
+                                    Kfc
+                                </label>
+                            </div><div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="Kfc">
+                                    Kfc
+                                </label>
+                            </div><div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="Kfc">
+                                    Kfc
+                                </label>
+                            </div><div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="Kfc">
+                                    Kfc
+                                </label>
+                            </div><div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="Kfc">
+                                    Kfc
+                                </label>
+                            </div><div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="Kfc">
+                                    Kfc
+                                </label>
+                            </div><div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="Kfc">
+                                    Kfc
+                                </label>
+                            </div><div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="Kfc">
+                                    Kfc
+                                </label>
+                            </div><div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="Kfc">
+                                    Kfc
+                                </label>
+                            </div><div class="form-check">
+                                <label for="check1" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="check1" name="food" value="Kfc">
+                                    Kfc
+                                </label>
+                            </div>
+                        
+                        <div class="form-group"> 
+                            <label for="comment"><strong class="review">Other Foods:</strong></label>
+                            <textarea class="form-control" rows="5" id="comment" placeholder="Type Other dishes/foods"></textarea>
+                        </div>
+                        <a href="#done" class="btn btn-outline-success btn-sm Done">Done!</a>
+                        <div id="done">
+                            
+                        </div>
+                    </div>
+
+                
+                <!--Submit button-->
+                <div>
+                        <button type="submit" class="btn btn-primary">Submit Info</button>
+                </div>
+            </form>
+                
+
+
+                <!--Tables-->
+                    <div>
+                        <a href="tables.html" role="button" class="btn btn-outline-secondary mt-3 mb-2">Go to Tables</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
