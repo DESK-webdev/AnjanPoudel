@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>food _login</title>
 
-    <link rel="stylesheet" type="text/css" href="css/style_food.css">
+    <link rel="stylesheet" type="text/css" href="css/style_login.css">
 </head>
 <style>
    
@@ -19,17 +19,17 @@
 
 <body>
     <form accept="#" class="need-validated">
-        <div class="form-group forms">
+        <div class="form-group login-forms">
             <label for="uname">Username:</label>
             <input type="text" class="form-control" id="uname" name="username" placeholder="Type username" required>
             <div class="invalid-feedback">Please fill out the form!</div>
         </div>
-        <div class="form-group forms">
+        <div class="form-group login-forms">
             <label for="psswd">Password:</label>
             <input type="password" class="form-control" id="psswd" name="Password" placeholder="Type Password" required>
             <div class="invalid-feedback">Please fill out the form!</div>
         </div>
-        <div class="form-group checkbox">
+        <div class="form-group login-Remember-me">
             <label for="check" class="form-check-label">
                 <input type="checkbox" class="form-check-input" id="check" name="checkboxed" value="checked" required>
                 Remember me
@@ -37,7 +37,7 @@
             <div class="invalid-feedback">Please check the box!</div>
         </div>
 
-        <button class="btn btn-success btn-md" type="submit">Submit</button>
+        <button class="btn btn-success btn-md login-submit" type="submit">Submit</button>
     </form>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 

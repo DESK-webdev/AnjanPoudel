@@ -4,7 +4,14 @@
 
 
 
-   /* my header */
+
+
+
+
+
+
+
+
 
 .bg-steel{
     background: rgb(255, 211, 15)
@@ -15,11 +22,7 @@
     font-size: 17px;
     font-style: oblique;
 }
-
-/***********************************/
-
-
-/*=============Body=================*/
+   /* my */
 .search{
     position: absolute;
     width: 50%;
@@ -88,7 +91,7 @@
   
   .search-text {
     
-    border: none;   /* my header */
+    border: none;
     background:none;
     outline: none;
     line-height:40px ;
@@ -100,11 +103,7 @@
     float: left;
     transition: 0.5s;
   }
-
-/******************Body*****************/
   
-/*===============Footer======================*/
-
 .social a{
     font-size: 4.5rem;
     padding: 1rem;
@@ -162,26 +161,4 @@ footer{
     margin-bottom: .7rem;
   }
 
-/**************************Footer*********************************/
-
-
-
-
-
-@media only screen and (max-width:400px){
-  .pantry-text{
-    font-size: 15px;
-    
-  }
-
-
-  .welcome{
-    font-size: 25px;
-    font-weight: bold;
-  }
   
-  .pantry{
-    margin: 0 0 0 -80px;
-  }
-  
-}

@@ -1,0 +1,300 @@
+
+.logo{
+    display: flex;
+    margin: 2rem;
+    position: absolute;
+}
+
+.motto{
+    display: flex;
+    margin: 40% 0 0 10%;
+    position: absolute;
+    font-family:Livvic;
+
+}
+
+.login-section{
+    background: url(../assets/background/pic01.jpg);
+    background-size: 760px;
+    background-repeat: no-repeat;
+
+}
+
+.login{
+    position: relative;
+    left: 27%;
+}
+
+.login-body{
+    margin:7% 30% 4% 30%;
+    background:rgb(111, 71, 148) ;
+    text-align: center;
+    box-shadow: 0 15px 20px  rgb(0, 0, 0);
+    left: 10%;
+}
+
+.login-body h2{
+    padding: 3rem 0 0 0;
+    margin: 2rem 4rem 0 0;
+    color: white;
+}
+
+.login-body .number{
+    margin:0 0 1rem 0;
+}
+
+.login-body .password{
+    margin:0 0 1rem 0;
+}
+
+.login-body input{
+    padding: 1rem 2rem;
+    border-radius:0.5rem ;
+}
+
+.login-body .remem_me{
+    font-size: 1.2rem;
+    font-family: Abel;
+    color: white;
+
+}
+
+.login-body .btn{
+    background: rgb(219, 214, 214) !important;
+}
+
+.login-body .btn:hover{
+    background: rgb(133, 131, 131) !important;
+}
+
+.login-form{
+    padding: 1.2rem 0 3rem 0;
+}
+
+
+@media only screen and (max-width:1180px){
+    .login{
+        position: relative;
+        left: 0;
+        width: 100%;
+        margin-top: 40%;
+        padding: 1rem !important;
+    }
+
+    .login-body{
+        position: relative;
+        left: -13%;
+        width: 65%;
+        margin:1rem 20rem;
+        
+    }
+
+    .login-section{
+        background: url(../assets/background/pic01.jpg);
+        background-size: 1180px;
+        background-repeat: no-repeat;
+        width: 100%;
+    
+    }
+    .motto{
+        display: flex;
+        margin: 8% 0 0 4%;
+        position: absolute;
+        font-family:Livvic;
+
+    }
+
+}
+
+
+@media only screen and (max-width:950px){
+    .login{
+        width:100%;
+    }
+
+    .login-body{
+        width: 65%;
+        left: -20%;
+      
+    }
+
+    .login-section{
+        background-size: 950px;
+    }
+
+    .motto{
+        margin: 10% 0 0 4%;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .login{
+        width:100%;
+    }
+
+    .login-body{
+        width: 65%;
+        left: -24%;
+      
+    }
+
+    .login-section{
+        background-size: 900px;
+    }
+
+    .motto{
+        margin: 10% 0 0 4%;
+    }
+}
+
+@media only screen and (max-width:730px){
+    .login{
+        width:100%;
+    }
+
+    .login-body{
+        width: 65%;
+        left: -29%;
+      
+    }
+
+    .login-section{
+        background-size: 750px;
+    }
+
+    .motto{
+        margin: 10% 0 0 4%;
+    }
+}
+
+
+@media only screen and (max-width:660px){
+    .login{
+        width:100%;
+    }
+
+    .login-body{
+        width: 65%;
+        left: -35%;
+      
+    }
+
+    .login-section{
+        background-size: 660px;
+    }
+
+    .motto{
+        margin: 10% 0 0 4%;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .login{
+        width:100%;
+    }
+
+    .login-body{
+        width: 75%;
+        left: -50%;
+      
+    }
+
+    .login-section{
+        background-size: 600px;
+    }
+
+    .motto{
+        margin: 13% 0 0 4%;
+    }
+}
+
+@media only screen and (max-width:520px){
+    .login{
+        width:100%;
+    }
+
+    .login-body{
+        width: 75%;
+        left: -15%;
+        transform: translate(-50%,0);
+      
+    }
+
+    .login-section{
+        background-size: 520px;
+    }
+
+    .motto{
+        margin: 14% 0 0 4%;
+    }
+}
+
+
+@media only screen and (max-width:500px){
+    .login{
+        width:100%;
+        padding: 0;
+    }
+
+    .login-body{
+        width: 75%;
+       
+        left: -20%;
+        transform: translate(-50%,0);
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .login-section{
+        background-size: 600px;
+    }
+
+    .motto{
+        margin: 14% 0 0 4%;
+    }
+}
+
+@media only screen and (max-width:460px){
+    .login{
+        width:100%;
+        padding: 0;
+    }
+
+    .login-body{
+        width: 80%;
+        left: -25%;
+        display: block;
+      
+    }
+
+    .login-section{
+        background-size: 600px;
+    }
+
+    .motto{
+        margin: 15% 0 0 4%;
+    }
+
+}
+
+@media only screen and (max-width:420px){
+    .login{
+        width:100%;
+        padding: 0;
+    }
+
+    .login-body{
+        width: 80%;
+      
+      
+    }
+
+    .login-section{
+        background-size: 430px;
+    }
+
+    .motto{
+        margin: 16% 0 0 4%;
+    }
+}
+

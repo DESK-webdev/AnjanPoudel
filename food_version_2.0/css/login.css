@@ -1,0 +1,189 @@
+
+.logo{
+    display: flex;
+    margin: 2rem;
+    position: absolute;
+}
+
+.motto{
+    display: flex;
+    margin: 40% 0 0 10%;
+    position: absolute;
+    font-family:Livvic;
+
+}
+
+.login-section{
+    background: url(../assets/background/pic01.jpg);
+    background-size: 760px;
+    background-repeat: no-repeat;
+
+}
+
+
+.login-body{
+    position: relative;
+    margin:8% 30% 3% 30%;
+    background:rgb(111, 71, 148) ;
+    text-align: center;
+    box-shadow: 0 15px 20px  rgb(0, 0, 0);
+    left:46%;
+    transform: translate(-50%,0);
+    border-radius: 1rem;
+}
+
+.login-body h2{
+    padding: 3rem 0 0 0;
+    margin: 2rem 4rem 0 0;
+    color: white;
+}
+
+.login-body .number{
+    margin:0 0 1rem 0;
+}
+
+.login-body .password{
+    margin:0 0 1rem 0;
+}
+
+.login-body input{
+    padding: 1rem 2rem;
+    border-radius:0.5rem ;
+}
+
+.login-body .remem_me{
+    font-size: 1.2rem;
+    font-family: Abel;
+    color: white;
+
+}
+
+.login-body .btn{
+    background: rgb(219, 214, 214) !important;
+}
+
+.login-body .btn:hover{
+    background: rgb(133, 131, 131) !important;
+}
+
+.login-form{
+    padding: 1.2rem 0 3rem 0;
+}
+
+@media only screen and (max-width:1160px){
+    .login-body{
+        left: 20%;
+        margin-top: 20rem;
+        width: 60%;
+        margin-bottom: 3rem;
+
+    }
+
+    .login-section{
+        background: url(../assets/background/pic01.jpg);
+        background-size: 1160px;
+        background-repeat: no-repeat;
+
+    }
+
+    .motto{
+    margin: 8% 0 0 4%;
+    position: relative;
+ }
+}
+
+
+@media only screen and (max-width:860px){
+    .login-body{
+        left: 20%;
+        margin-top: 16rem;
+        width: 60%;
+    }
+
+    .login-section{
+        background-size: 860px;
+
+    }
+
+    .motto{
+    margin: 10% 0 0 5%;
+ }
+}
+
+
+@media only screen and (max-width:680px){
+    .login-body{
+        left: 20%;
+        margin-top: 12rem;
+        width: 60%;
+    }
+
+    .login-section{
+        background-size: 680px;
+
+    }
+
+    .motto{
+    margin: 11% 0 0 6%;
+ }
+}
+
+
+@media only screen and (max-width:600px){
+    .login-body{
+        left: 20%;
+        margin-top: 12rem;
+        width: 80%;
+    }
+
+    .login-section{
+        background-size: 650px;
+
+    }
+
+    .motto{
+    margin: 5rem 0 0 2rem;
+ }
+}
+
+
+@media only screen and (max-width:450px){
+    .login-body{
+        left: 20%;
+        margin-top: 13rem;
+        width: 80%;
+    }
+
+    .login-section{
+        background-size: 500px;
+
+    }
+
+    .motto{
+    margin: 5rem 0 0 2rem;
+    color: black;
+    font-weight: bold;
+ }
+}
+
+
+
+@media only screen and (max-width:350px){
+    .login-body{
+        left: 20%;
+        margin-top: 9.4rem;
+        width: 80%;
+    }
+
+    .login-section{
+        background-size: 450px;
+
+    }
+
+    .motto{
+    margin: 5rem 0 0 2rem;
+    color: black;
+    font-weight: bold;
+ }
+}
+
