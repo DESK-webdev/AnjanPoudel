@@ -97,7 +97,6 @@ p{
 
 .btn:hover{
     background:rgb(149, 158, 207);
-    font-size: 1.3rem;
     transition: 0.3s ease;
     border: none;
     border: 1px solid rgb(131, 123, 123);
@@ -289,8 +288,44 @@ main .container .cards{
 /*-------------Footer body starts-------------*/
 footer .footer-body{
     background: rgb(68, 68, 71);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+    height: 400px;
 }
 
+footer .footer-body>div{
+    padding: 1rem;
+    margin: 0.2rem;
+    background: rgb(39, 37, 37);
+}
+
+footer h2{
+    color: rgb(243, 232, 232);
+}
+footer p{
+    padding-top: 0.5rem;
+    color: rgb(148, 143, 143);
+}
+footer .small-contact-us p{
+    font-size: 12px;
+}
+footer .news-notices{
+    padding-bottom: 1rem;
+}
+footer a{
+    color: rgb(216, 202, 202);
+}
+footer a:hover{
+    color: rgb(97, 91, 91);
+}
+footer .copyright{
+    display: flex;
+    justify-content: center;
+    background: rgb(79, 79, 107);
+    outline: none;
+    padding: 1rem;
+}
 
 /**************Footer ends************/
 

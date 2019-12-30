@@ -60,6 +60,8 @@
 
 .login-body .btn{
     background: rgb(219, 214, 214) !important;
+    font-family: Abel;
+    font-weight: bold;
 }
 
 .login-body .btn:hover{
