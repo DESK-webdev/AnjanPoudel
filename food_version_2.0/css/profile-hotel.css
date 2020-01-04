@@ -1,0 +1,74 @@
+
+
+.profile{
+    padding: 2rem;
+}
+
+.profile .profile-hotel{
+    display: grid;
+    grid-template-columns:29%  68%;
+    
+}
+
+.profile .profile-pic{
+    padding: 1rem;
+    max-height: 320px;
+    
+}
+
+.profile .profile-pic img{
+    width:94%;
+    border: red solid 2px;
+    border-radius:50%;
+    border: 3px solid rgb(190, 125, 190);
+    height: 90%;
+}
+
+.profile .profile-data{
+    background: rgb(160, 104, 212);
+    padding: 3rem 1rem;
+    border-radius: 1rem;
+    margin: 2rem 0;
+    box-shadow: 0 10px 20px rgb(71, 65, 65);
+    /* border: red 2px solid; */
+}
+
+.profile .profile-data p{
+    font-family: Abel;
+    color: black;
+}
+
+
+/*footer profile section*/
+footer .footer-profile-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background: rgb(44, 41, 41);
+    height:30vh;
+    padding: 1.5rem;
+}
+
+footer .footer-profile-section>div{
+    margin: 0.5rem;
+    background-color: rgb(43, 38, 38);
+    padding: 0.5rem;
+}
+
+footer .footer-3-12{
+    padding: 2rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+
+}
+
+footer .footer-section-3 a{
+    line-height: 2rem;
+}
+/*footer profile section ends here*/
+
+/* copyright section */
+.footer .copyright a:hover{
+    color: red;
+}

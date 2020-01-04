@@ -1,0 +1,54 @@
+
+
+.profile .profile-hotel{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    margin: 7rem 1rem 1rem 1rem;
+}
+
+.pic{
+    background: rgb(49, 168, 19);
+    padding: 0.2rem;
+    box-shadow: 0 8px 10px blue;
+    margin: 2rem;
+}
+
+.pic .cover-pic{
+    background:url(../assets/hotelphotos/hotel1.jpg);
+    height: 100%;
+    width: 100%;
+    background-size:cover ;
+}
+
+.pic .cover-pic .profile-pic {
+    width: 30%;
+    position: relative;
+    left: 60%;
+    margin: 2rem 1rem;
+    padding: 0.2rem;
+}
+
+.pic .cover-pic .profile-pic  img{
+   border-radius:50%;
+   height: 135px;
+   width: 100%;
+
+
+}
+
+.pic .cover-pic .profile-pic img:hover{
+    opacity: 0.8;
+}
+.pic .cover-pic .profile-pic img:active{
+    opacity: 0.6;
+}
+
+
+.profile .profile-data{
+    background: rgb(32, 142, 156);
+    padding: 1rem;
+    margin: 0rem 2rem;
+    border-radius: 1rem;
+    position: relative;
+    padding: 2rem;    
+}

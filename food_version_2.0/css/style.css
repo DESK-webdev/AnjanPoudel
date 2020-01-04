@@ -1,6 +1,7 @@
 
 @import url(./fonts.css); 
 @import url(./login.css);
+@import url(./hotel-profile.css);
 
 
 *{
@@ -233,12 +234,14 @@ main .container .site-main .site-title{
 }
 
 
-main .container .cards{
+/* cards start*/
+
+
+.cards{
     display: grid;
     grid-template-columns: 3% 94% 3%;
 }
 
-/* cards start*/
 
 .products{
     position: relative;
@@ -246,6 +249,7 @@ main .container .cards{
     display: grid;
     grid-template-columns:repeat(3,1fr);
     text-align: center;
+    padding: 1.5rem;
 }
 
  .products .product-items{
@@ -258,12 +262,12 @@ main .container .cards{
 }
 
 
- .products .product-items .image{
+ .products .product-items .product-image{
     width: 100%;
     overflow: hidden;
     transition: 0.5s ease-in-out;
-    height:270px;
-
+    margin-bottom: 1rem;
+  /*  height: 240px;  */
 }
 
 
@@ -290,17 +294,20 @@ footer .footer-body{
     background: rgb(68, 68, 71);
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    padding: 1rem 0.5rem 0.5rem 0.5rem;
-    height: 400px;
+    padding: 0.3rem 0.5rem 0.5rem 0.5rem;
+    height: 300px;
 }
 
 footer .footer-body>div{
-    padding: 1rem;
-    margin: 0.2rem;
+    margin: 0.03rem;
     background: rgb(39, 37, 37);
+    padding: 1rem;
 }
 
 footer h2{
+    color: rgb(243, 232, 232);
+}
+footer h3{
     color: rgb(243, 232, 232);
 }
 footer p{
@@ -315,9 +322,10 @@ footer .news-notices{
 }
 footer a{
     color: rgb(216, 202, 202);
+    font-size: medium;
 }
 footer a:hover{
-    color: rgb(97, 91, 91);
+    color: rgb(97, 91, 91) !important;
 }
 footer .copyright{
     display: flex;
@@ -326,6 +334,10 @@ footer .copyright{
     outline: none;
     padding: 1rem;
 }
+footer h4{
+    color: rgb(216, 202, 202);
+}
+
 
 /**************Footer ends************/
 
