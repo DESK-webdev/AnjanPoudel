@@ -273,7 +273,7 @@ main .container .site-main .site-title{
 
 .products{
     position: relative;
-    margin: 4rem 0rem;
+    margin: -1rem 0rem;
     text-align: center;
     padding: 1rem;
     z-index: 0;
