@@ -7,7 +7,7 @@
 *{
     margin: 0;
     overflow-x: hidden;
-
+    box-sizing: border-box;
 }
 
 
@@ -31,6 +31,10 @@
 
 
 
+}
+
+body{
+    overflow: hidden;
 }
 
 
@@ -118,6 +122,7 @@ p{
 
 
 /*---------Navigation bar start---------*/
+
 nav{
     position: fixed;
     width: 98%;
@@ -125,6 +130,10 @@ nav{
     z-index: 1;
     box-shadow: 1px 15px 20px rgb(165, 155, 155);
     margin: 0rem 6rem auto 0.7rem;
+    height: 0rem;
+    min-height: 6rem;
+    overflow: hidden;
+    transition: 0.4s ease;
 
 }
 
@@ -132,15 +141,26 @@ nav .navbar-brand {
     margin: 1rem;
 }
 
+nav .navbar-brand {
+    margin-top: 2rem;
+}
+
 nav .navbar-brand a{
     font-family: Josefin;
+
+    
+}
+
+nav .navbar-brand a strong {
+    font-size: 2rem;
 }
 
 
 nav .nav-items{
     display: flex;
-
+    margin-top: 1rem;
 }
+
 
 nav .nav-items .nav-link{
     padding: 1.5rem 1rem;
@@ -170,16 +190,28 @@ nav .social a{
     padding: 0 0.3rem;
 }
 
+nav .toggle-collapse{
+    display: none;
+}
+
 nav .toggle-collapse .toggle-icons{
-    margin: 1rem;
     position: absolute;
     left: 90%;
     cursor: pointer;
-    display: flex;
+    margin-top: 2.5rem;
+    top: 0%;
+    
+}
+
+nav .toggle-collapse .toggle-icons:hover{
+    background: firebrick;
+}
+
+.collapse{
+    height: 34rem;
 }
 
 nav .toggle-collapse .toggle-icons i{
-   display: none;
    font-size: 1.4rem;
 }
 
@@ -199,6 +231,7 @@ main .container{
     padding: 10rem 0;
     background-size:700px;
     background-repeat: no-repeat;
+
 }
 
 main .search-box{
@@ -234,30 +267,36 @@ main .container .site-main .site-title{
 }
 
 
-/* cards start*/
 
-
-.cards{
-    display: grid;
-    grid-template-columns: 3% 94% 3%;
-}
+/* cards start */
 
 
 .products{
     position: relative;
-    margin: 5rem 1rem;
+    margin: 4rem 0rem;
+    text-align: center;
+    padding: 1rem;
+    z-index: 0;
+    height: 600px;
+    overflow: hidden;
+
+}
+
+
+
+.owl-carousel{
+    margin:2rem;
     display: grid;
     grid-template-columns:repeat(3,1fr);
-    text-align: center;
-    padding: 1.5rem;
+
 }
 
  .products .product-items{
-    margin: 1rem;
+    margin: 1.6rem;
     box-shadow: 10px 15px 22px rgb(122, 114, 114);
     border:1px solid rgb(123, 123, 134);
-    padding: 0.5rem;
-    background: var(--light-sky);
+    padding: 0.1rem;
+    background:rgb(235, 226, 226);
     border-radius: 1rem;
 }
 
@@ -267,7 +306,7 @@ main .container .site-main .site-title{
     overflow: hidden;
     transition: 0.5s ease-in-out;
     margin-bottom: 1rem;
-  /*  height: 240px;  */
+  /*  height: 240px;  ---comment */
 }
 
 
@@ -285,7 +324,7 @@ main .container .site-main .site-title{
 }
 
 
-/*Cards end*/
+/* Cards end */
 
 
 
@@ -343,8 +382,14 @@ footer h4{
 
 @media only screen and (max-width:910px){
 
-    nav .nav-items,.social{
-        display: none;
+    nav .nav-menu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav .nav-items{
+        display: flex;
+        flex-direction: column;
     }
 
     main .container{
@@ -352,8 +397,9 @@ footer h4{
         margin-top: 4rem !important;
     }
     
-    nav .toggle-collapse .toggle-icons i{
+    nav .toggle-collapse {
         display: initial;
+        
      }
      
 }

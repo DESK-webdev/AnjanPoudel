@@ -9,20 +9,24 @@
 <!------ Link to css ------->
 <link rel="stylesheet" href="css/style.css">
 
+<!--link to owl-carousel-->
+<link rel="stylesheet" href="./css/owl.carousel.min.css">
+<link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
 <!------------ link to all ------------>
 <link rel="stylesheet" href="css/all.css">
 
 <body>
-<nav>
+<nav class="nav">
     <div class="nav-menu flex-row">
         <div class="navbar-brand">
-            <a href="#"><h2>foodie</h2></a>
+            <a href="#"><strong>foodie</strong></a>
         </div>
 
         <div class="toggle-collapse">
             <div class="toggle-icons">
                 <i class="fas fa-bars">
-
+                    
                 </i>
             </div>
         </div>
@@ -78,55 +82,52 @@
     </div>
 </main>    
 
-<div class="cards">
+
 <!--Cards starts-->
-    <div class="products-left">
-        <h1></h1>
-    </div>
-    <div class="products">
+<section>
+<div class="products">
+    <div class="owl-carousel">
         <div class="product-items">
             <div class="product-image">
-            <img src="./assets/sandwitch.jpg" alt="pic">
+                <img src="./assets/burger.jpg" alt="">
             </div>
-            <h2>Sandwitch</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, enim?</p>
-            <form action="#">
-                <div class="form-element">
-                    <button class="btn form-btn" type="submit">View Detail</button>
-                </div>
-            </form>
+            <div class="product-describe">
+                <h2>Burger</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, tempore?</p>
+                <form action="">
+                    <button type="submit" class="btn">View it</button>
+                </form>
+            </div>
         </div>
         <div class="product-items">
             <div class="product-image">
-                <img src="./assets/Special_jumbo.jpg" alt="pic">
+                <img src="./assets/burger.jpg" alt="">
             </div>
-            <h2>Special_jumbo</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, enim?</p>
-            <form action="#">
-                <div class="form-element">
-                    <button class="btn form-btn" type="submit">View Detail</button>
-                </div>
-            </form>
+            <div class="product-describe">
+                <h2>Burger</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, tempore?</p>
+                <form action="">
+                    <button type="submit" class="btn">View it</button>
+                </form>
+            </div>
         </div>
         <div class="product-items">
             <div class="product-image">
-                <img src="./assets/pizza.jpg" alt="pic">
+                <img src="./assets/burger.jpg" alt="">
             </div>
-            <h2>Pizza</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, enim?</p>
-            <form action="#">
-                <div class="form-element">
-                    <button class="btn form-btn" type="submit">View Detail</button>
-                </div>
-            </form>
+            <div class="product-describe">
+                <h2>Burger</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, tempore?</p>
+                <form action="">
+                    <button type="submit" class="btn">View it</button>
+                </form>
+            </div>
         </div>
-        
     </div>
-    <div class="products-right">
-        <h1></h1>
-    </div>
-<!--Cards end--> 
 </div>
+</section>
+
+<!--Cards end-->
 
 
 <footer>
@@ -169,6 +170,14 @@
     <div class="copyright">
         <h4>2020 @ copyright:<a href="#">Anjan_Poudel</a></h4>
     </div>
+
+
 </footer>
 </body>
+<!--link to jquery-->
+<script src="./js/Jquery3.4.1.min.js"></script>
+<!--Link to owl-carousel-->
+<script src="./js/owl.carousel.min.js"></script>
+<!--Link to js-->
+<script src="./js/main.js"></script>
 </html>
