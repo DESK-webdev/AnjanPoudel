@@ -2,6 +2,7 @@
 @import url(./fonts.css); 
 @import url(./login.css);
 @import url(./hotel-profile.css);
+@import url(./customer-profile.css);
 
 
 *{
@@ -236,7 +237,7 @@ main .container{
 
 main .search-box{
     position: relative;
-    margin: 7rem 5rem 0 50%;
+    margin: 3rem 5rem 0 50%;
     text-align: center;
 }
 
@@ -279,7 +280,6 @@ main .container .site-main .site-title{
     z-index: 0;
     height: 600px;
     overflow: hidden;
-
 }
 
 
@@ -403,4 +403,6 @@ footer h4{
      }
      
 }
+
+
 

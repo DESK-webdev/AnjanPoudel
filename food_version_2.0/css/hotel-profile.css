@@ -6,21 +6,21 @@
     margin: 7rem 1rem 1rem 1rem;
 }
 
-.pic{
+.hotel-pic{
     background: rgb(49, 168, 19);
     padding: 0.2rem;
     box-shadow: 0 8px 10px blue;
     margin: 2rem;
 }
 
-.pic .cover-pic{
+.hotel-pic .cover-pic{
     background:url(../assets/hotelphotos/hotel1.jpg);
     height: 100%;
     width: 100%;
     background-size:cover ;
 }
 
-.pic .cover-pic .profile-pic {
+.hotel-pic .cover-pic .profile-pic {
     width: 30%;
     position: relative;
     left: 60%;
@@ -28,7 +28,7 @@
     padding: 0.2rem;
 }
 
-.pic .cover-pic .profile-pic  img{
+.hotel-pic .cover-pic .profile-pic  img{
    border-radius:50%;
    height: 135px;
    width: 100%;
@@ -36,10 +36,10 @@
 
 }
 
-.pic .cover-pic .profile-pic img:hover{
+.hotel-pic .cover-pic .profile-pic img:hover{
     opacity: 0.8;
 }
-.pic .cover-pic .profile-pic img:active{
+.hotel-pic .cover-pic .profile-pic img:active{
     opacity: 0.6;
 }
 
