@@ -5,14 +5,18 @@
 @import url(./customer-profile.css);
 @import url(./view_it.css);
 @import url(./order_details.css);
+@import url(./fastfood.css);
 
 
 *{
     margin: 0;
-    overflow-x: hidden;
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+
+}
 
 
 /*---------Colors start---------*/
@@ -50,7 +54,7 @@ h1{
 }
 
 h2{
-    font-size:33px;
+    font-size:25px;
     font-family: Livvic;
     color: var(--text-gray);
     text-align: center;
@@ -79,6 +83,7 @@ a{
     justify-content: space-between;
     flex-wrap:wrap ;
 }
+
 p{
     font-size:16px;
     font-family: Lexend;
@@ -94,6 +99,18 @@ p{
     font-size: 1.2rem;
     cursor: pointer;
     border:1px solid transparent;
+    outline: none;
+    margin: 1rem;
+    transform: translate(-6%);
+}
+.small{
+    padding:0.4rem 0.8rem;
+    border-radius:1rem ;
+    background:rgb(93, 202, 216);
+    color: black;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border:1px solid blue;
     outline: none;
     margin: 1rem;
     transform: translate(-6%);
@@ -128,6 +145,41 @@ td{
 }
 
 
+h4{
+    font-size: 1.1rem;
+    font-family:Livvic;
+}
+
+.left{
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.btnright{
+    display: flex;
+    position: relative;
+    left: 90%;
+    transform: translate(-50%);
+    margin: 1rem;   
+}
+
+img{
+    width: 100%;
+    
+}
+
+.mg-1{
+    margin: 1rem;
+}
+
+.f15{
+    font-size: 15px;
+}
+
+.f18{
+    font-size: 18px;
+}
+
 /*********** Global classes end **********/
 
 
@@ -137,9 +189,10 @@ td{
 
 nav{
     position: fixed;
+    top: 0;
     width: 98%;
     background: white;
-    z-index: 1;
+    z-index: 2;
     box-shadow: 1px 15px 20px rgb(165, 155, 155);
     margin: 0rem 6rem auto 0.7rem;
     height: 0rem;
@@ -147,6 +200,10 @@ nav{
     overflow: hidden;
     transition: 0.4s ease;
 
+}
+
+nav ul{
+    list-style-type: none;
 }
 
 nav .navbar-brand {
@@ -243,7 +300,7 @@ main .container{
 
 }
 
-main .search-box{
+.search-box{
     position: relative;
     margin: 0rem 5rem 0 50%;
     text-align: center;
@@ -252,7 +309,7 @@ main .search-box{
     width: 90%;
 }
 
-main .search-box input{
+.search-box input{
     padding: 0.9rem;
     border-radius:0.4rem ;
     border:1px solid black;
@@ -289,27 +346,28 @@ main .container .site-main .site-title{
     text-align: center;
     padding: 1rem;
     z-index: 0;
-    height: 600px;
     overflow: hidden;
 }
 
 
 
-.owl-carousel{
-    margin:2rem;
+.carousel{
+    margin:1rem;
     display: grid;
-    grid-template-columns:repeat(3,1fr);
-    transform: scale(0.93);
-
+    grid-template-columns:repeat(4,1fr);
+    transform: scale(0.99);
+    position: relative;
 }
 
  .products .product-items{
     margin: 1.6rem;
-    box-shadow: 10px 15px 22px rgb(122, 114, 114);
+    box-shadow: 0px 10px 20px rgb(122, 114, 114);
     border:1px solid rgb(123, 123, 134);
     padding: 0.1rem;
-    background:rgb(235, 226, 226);
-    border-radius: 1rem;
+    background:rgb(245, 244, 245);
+    border-radius: 0.6rem;
+    min-height: 420px;
+    max-height: 600px;
 }
 
 
@@ -317,15 +375,18 @@ main .container .site-main .site-title{
     width: 100%;
     overflow: hidden;
     transition: 0.5s ease-in-out;
+    border-radius: 0.6rem;
     margin-bottom: 1rem;
-  /*  height: 240px;  ---comment */
+    max-height: 340px;
+    min-height: 230px;
 }
 
 
  .products .product-items img{
     width: 100%;
-    overflow: hidden;
     transition: 0.5s ease-in-out;
+    min-height: 210px;
+    max-height: 235px;
 
 }
 
@@ -337,6 +398,9 @@ main .container .site-main .site-title{
 
 
 /* Cards end */
+
+
+
 
 
 
@@ -372,7 +436,7 @@ footer .news-notices{
     padding-bottom: 1rem;
 }
 footer a{
-    color: rgb(216, 202, 202);
+    color: rgb(216, 35%202, 202);
     font-size: medium;
 }
 footer a:hover{
@@ -413,6 +477,119 @@ footer h4{
         display: initial;
         
      }
+     .products .product-items img{
+        width: 100%;
+        transition: 0.5s ease-in-out;
+        min-height: 210px;
+        max-height: 380px;
+    
+    }
+}
+
+@media only screen and (max-width:579px){
+
+
+        
+.carousel{
+    margin: 0 3rem;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    transform: scale(0.99);
+    position: relative;
+    left: 40%;
+    transform: translate(-50%);
+}
+
+.products .product-items{
+    margin: 1.6rem;
+    box-shadow: 0px 10px 20px rgb(122, 114, 114);
+    border:1px solid rgb(123, 123, 134);
+    padding: 0.1rem;
+    background:rgb(245, 244, 245);
+    border-radius: 0.6rem;
+    min-height: 530px;
+    max-height: 800px;
+}
+     
+
+
+.products .product-items .product-image{
+    width: 100%;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    border-radius: 0.6rem;
+    margin-bottom: 1rem;
+    max-height: 640px;
+    min-height: 345px;
+}
+
+
+.products .product-items img{
+    width: 100%;
+    transition: 0.5s ease-in-out;
+    min-height: 300px;
+    max-height: 380px;
+
+}
+
+
+}
+
+@media only screen and (max-width:470px){
+
+
+    .products .product-items .product-image{
+        max-height: 640px;
+        min-height: 285px;
+    }
+    
+    .products .product-items img{
+        min-height: 250px;
+        max-height: 300px;
+    
+    }
+    
+    .products .product-items{
+        min-height: 470px;
+        max-height: 700px;
+    }
+         
+    
+}
+
+@media only screen and (max-width:370px){
+
+
+        
+.carousel{
+    margin: 0;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    transform: scale(0.99);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.products .product-items .product-image{
+    max-height: 640px;
+    min-height: 215px;
+}
+
+.products .product-items img{
+    min-height: 220px;
+    max-height: 250px;
+
+}
+
+.products .product-items{
+    min-height: 370px;
+    max-height: 700px;
+}
+ 
+
+
+
      
 }
 

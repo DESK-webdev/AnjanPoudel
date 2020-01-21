@@ -1,13 +1,14 @@
 
 .logo{
     display: flex;
-    margin: 2rem;
     position: absolute;
+    top: 3%;
+    margin:0.2rem 1rem ;
 }
 
 .motto{
     display: flex;
-    margin: 40% 0 0 10%;
+    margin: 30% 0 0 10%;
     position: absolute;
     font-family:Livvic;
 
@@ -15,7 +16,7 @@
 
 .login-section{
     background: url(../assets/background/pic01.jpg);
-    background-size: 760px;
+    background-size: 660px;
     background-repeat: no-repeat;
 
 }
@@ -145,6 +146,16 @@
 
     .motto{
     margin: 5rem 0 0 2rem;
+ }
+
+ .btn{
+     margin: 2rem;
+     justify-content: center;
+     display: flex;
+     width: 50%;
+     position: relative;
+     left: 23%;
+     transform: translate(-50%);
  }
 }
 

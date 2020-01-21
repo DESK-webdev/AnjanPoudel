@@ -7,11 +7,20 @@ const responsive={
     320:{
         items:1
     },
-    560:{
+    580:{
         items:2
+    },
+    900:{
+        items:3
     },
     960:{
         items:3
+    },
+    1200:{
+        items:4
+    },
+    1550:{
+        items:5
     }
 }
 
@@ -29,9 +38,6 @@ $(document).ready(function(){
         loop:true,
         autoplay:true,
         autoplayTimeout:3000,
-        dots:false,
-        nav:true,
-        navText:[$('.owl-navigation .owl-nav-prev'),$('.owl-navigation .owl-nav-next')],
         responsive:responsive
     });
 

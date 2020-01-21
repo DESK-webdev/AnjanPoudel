@@ -1,6 +1,6 @@
 
 
-.profile{
+.profile_customer{
     display: grid;
     grid-template-columns: 20% 80%;
     margin: 2rem;
