@@ -1,0 +1,175 @@
+
+
+.nav_down{
+    margin-top:6rem ;
+}
+
+
+.text{
+    margin-top: 1rem;
+    margin-bottom: 0rem; 
+}
+
+.text h2{
+    font-size:16px ;
+    text-align: left;
+    margin-left: 2rem;
+
+}
+
+ hr{
+    background-color: rgb(138, 134, 141);
+    position: relative;
+    height: 2px;
+    width: 98%;
+    left: 50%;    
+    transform: translate(-50%);
+}
+
+.gallary-showfood{
+    margin: 1rem;
+}
+
+
+.carousel-gallary{
+    background: rgb(211, 223, 109);
+    padding: 1rem;
+    width: 100%;
+}
+
+.gallary-foods{
+    margin: 0.7rem;
+    box-shadow: 0px 4px 10px blue;
+    max-height: 180px;
+    min-height: 180px;
+}
+
+.gallary-image{
+    padding: 1rem;
+}
+
+.gallary-image img{
+    border: 1px solid black;
+    transform: scale(1.2);
+    min-height: 100px;
+    max-height: 120px;
+}
+
+.gallary-info{
+    margin-top: 0.4rem;
+}
+
+
+.gallary-info h3{
+    font-size: 22px;
+    font-family: Abel;
+}
+
+@media only screen and (max-width:840px){
+
+    .gallary-foods{
+        margin: 1rem;
+        box-shadow: 0px 4px 10px blue;
+        max-height: 190px;
+        min-height: 190px;
+    }
+    .gallary-image img{
+    border: 1px solid black;
+    transform: scale(1.2);
+    min-height: 100px;
+    max-height: 120px;
+}
+}
+
+@media only screen and (max-width:738px){
+
+    .gallary-foods{
+        max-height: 160px;
+        min-height: 160px;
+    }
+    .gallary-image img{
+    min-height: 80px;
+    max-height: 120px;
+}
+
+}
+@media only screen and (max-width:629px){
+
+    .gallary-foods{
+        max-height: 190px;
+        min-height: 190px;
+    }
+    .gallary-image img{
+    min-height: 105px;
+    max-height: 120px;
+}
+
+}
+
+@media only screen and (max-width:580px){
+
+    .gallary-foods{
+        max-height: 175px;
+        min-height: 175px;
+    }
+    .gallary-image img{
+    min-height: 80px;
+    max-height: 120px;
+}
+}
+@media only screen and (max-width:520px){
+
+    .gallary-foods{
+        max-height: 165px;
+        min-height: 165px;
+    }
+    .gallary-image img{
+    min-height: 80px;
+    max-height: 120px;
+    }
+}
+@media only screen and (max-width:480px){
+
+    .gallary-foods{
+        max-height: 140px;
+        min-height: 140px;
+    }
+    .gallary-image img{
+    min-height: 70px;
+    max-height: 120px;
+    }
+}
+@media only screen and (max-width:446px){
+
+    .gallary-foods{
+        max-height: 200px;
+        min-height: 190px;
+    }
+    .gallary-image img{
+    min-height: 70px;
+    max-height: 120px;
+    }
+}
+@media only screen and (max-width:420px){
+
+    .gallary-foods{
+        max-height: 200px;
+        min-height: 170px;
+    }
+    .gallary-image img{
+    min-height: 70px;
+    max-height: 120px;
+    }
+}
+@media only screen and (max-width:360px){
+
+    .gallary-foods{
+        max-height: 200px;
+        min-height: 150px;
+    }
+    .gallary-image img{
+    min-height: 70px;
+    max-height: 120px;
+    }
+}
+

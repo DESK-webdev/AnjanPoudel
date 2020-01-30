@@ -2,49 +2,27 @@
 
 const responsive={
     0:{
-        items:1
-    },
-    320:{
-        items:1
-    },
-    580:{
-        items:2
-    },
-    900:{
+        items:2    },
+    447:{
         items:3
     },
-    960:{
-        items:3
-    },
-    1200:{
+    630:{
         items:4
     },
-    1550:{
+    905:{
         items:5
-    }
-}
-
-const response={
-    0:{
-        items:1
     },
-    320:{
-        items:1
+    1120:{
+        items:6
     },
-    580:{
-        items:2
-    },
-    900:{
-        items:3
-    },
-    960:{
-        items:3
-    },
-    1200:{
-        items:4
+    1320:{
+        items:7
     },
     1550:{
-        items:5
+        items:8
+    },
+    1650:{
+        items:9
     }
 }
 
@@ -59,11 +37,12 @@ $(document).ready(function(){
     })
 // owl carousel for blog
     $('.owl-carousel').owlCarousel({
-        loop:true,
-        autoplay:true,
+        loop:false,
+        autoplay:false,
         autoplayTimeout:3000,
         responsive:responsive,
-        navs:true,
+        dots:false,
+        nav:true,
     });
 
 
