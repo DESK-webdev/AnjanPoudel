@@ -4,7 +4,7 @@
 @import url(./hotel-profile.css);
 @import url(./customer-profile.css);
 @import url(./view_it.css);
-@import url(./order_details.css);
+@import url(./hotels.css);
 @import url(./fastfood.css);
 
 
@@ -158,7 +158,7 @@ h4{
 .btnright{
     display: flex;
     position: relative;
-    left: 90%;
+    left: 86%;
     transform: translate(-50%);
     margin: 1rem;   
 }
@@ -180,6 +180,11 @@ img{
     font-size: 18px;
 }
 
+.small_search{
+    transform: scale(0.8);
+
+}
+
 /*********** Global classes end **********/
 
 
@@ -196,7 +201,7 @@ nav{
     box-shadow: 1px 15px 20px rgb(165, 155, 155);
     margin: 0rem 6rem auto 0.7rem;
     height: 0rem;
-    min-height: 6rem;
+    min-height: 4.4rem;
     overflow: hidden;
     transition: 0.4s ease;
 
@@ -207,7 +212,7 @@ nav ul{
 }
 
 nav .navbar-brand {
-    margin: 1rem;
+    margin: 1.4rem;
 }
 
 
@@ -224,12 +229,12 @@ nav .navbar-brand a strong {
 
 nav .nav-items{
     display: flex;
-    margin-top: 1rem;
+    margin: 0rem 0 0 0;
 }
 
 
 nav .nav-items .nav-link{
-    padding: 1.5rem 1rem;
+    padding: 1.4rem 1rem;
     transition: 0.4s ease;
 }
 
@@ -241,7 +246,7 @@ nav .nav-items .nav-link a{
 
 nav .nav-items .nav-link:hover{
     background: rgb(85, 72, 85);
-    border-radius: 1rem;
+    border-radius: .4rem;
 }
 
 nav .nav-items .nav-link:hover>a{
