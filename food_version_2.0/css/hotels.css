@@ -192,12 +192,33 @@
 
  */
 
+ .hotels{
+     margin: 0.3rem;
+ }
 
  .hotels table{
      border-collapse: collapse;
-     border: 2px solid black;
+     border: 1px solid black;
  }
 
- .hotels table .image{
+ .hotels table .hotel_image{
+    width: 160px;
+    height: 120px;
+ }
 
+ .hotels table tr td h2{
+     text-align: left;
+     margin: 0;
+     line-height: 40px;
+     margin: -1rem  0 0 0;
+     padding: 0;
+   }
+
+ .hotels table tr .btn{
+   line-height: 14px;
+   margin: 0.2rem 0rem -0.3rem 4.5rem;
+ }
+
+ .hotels .hotel-descp{
+     width: 78%;
  }

@@ -192,7 +192,7 @@ img{
 
 
 .nav_down{
-    margin-top:4.rem ;
+    margin-top:4.6rem ;
 }
 
 
@@ -214,9 +214,10 @@ hr{
 
 table{
     border: 1.5px solid black;
-    width: 90%;
+    width: 91%;
     position: relative;
-    transform: scale(0.97);
+    left: 49%;
+    transform: translate(-50%);
     /* margin-top: 4rem; */
 }
  table tr th{
