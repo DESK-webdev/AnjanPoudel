@@ -16,7 +16,7 @@ const responsive={
         items:6
     },
     1320:{
-        items:7
+        items:8
     },
     1550:{
         items:8

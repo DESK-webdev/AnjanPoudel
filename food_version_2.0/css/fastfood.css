@@ -1,7 +1,11 @@
 
+
+
+
 .fastfood-css{
     margin: 5.5rem 2rem 0.4rem 2rem;
 }
+
 .fastfood-css h2{
     text-align: left;
     font-family: Abel;
@@ -22,8 +26,6 @@
     text-align: center;
     left: 45%;
     transform: translate(-50%);
-    width: 180%;
-    width: 100%;
 }
 
 .fastfood-search-box input{
@@ -34,9 +36,9 @@
     font-size: 1.1rem;
     color: black;
     font-family: Lexend;
-    margin:0.3rem;
+    margin:0 0.3rem ;
 }
 
 .fastfood-search-box .btn{
-    width: 30%;
+    width: 130px;
 }
