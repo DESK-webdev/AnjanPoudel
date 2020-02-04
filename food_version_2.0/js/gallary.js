@@ -3,26 +3,29 @@
 const responsive={
     0:{
         items:2    },
-    447:{
+    421:{
         items:3
     },
-    630:{
+    470:{
         items:4
     },
-    905:{
+    630:{
         items:5
     },
-    1120:{
+    905:{
         items:6
+    },
+    1120:{
+        items:7
     },
     1320:{
         items:8
     },
     1550:{
-        items:8
+        items:9
     },
     1650:{
-        items:9
+        items:10
     }
 }
 

@@ -41,24 +41,3 @@ h1{
 
     
 }
-
- table{
-    border: 1.5px solid black;
-    width: 90%;
-    position: relative;
-    transform: scale(0.97);
-    /* margin-top: 4rem; */
-}
- table tr th{
-    border: 1px solid black;
-    /* text-align: center; */
- }
-    table tr td{
-    border: 1px solid black;
-    text-align: center;
-}
-
-table .timebox{
-    border: 1px solid black;
-}
-

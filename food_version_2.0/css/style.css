@@ -14,6 +14,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 body{
@@ -88,7 +89,7 @@ a{
 }
 
 p{
-    font-size:10px;
+    font-size:13px;
     font-family: Lexend;
     color: var(--text-gray);
     text-align: center;
@@ -189,6 +190,50 @@ img{
 
 }
 
+
+.nav_down{
+    margin-top:4.rem ;
+}
+
+
+hr{
+    background-color: rgb(138, 134, 141);
+    position: relative;
+    height: 2px;
+    width: 12%;
+    margin: 0 1rem;
+}
+
+ .hr_down{
+    background-color: rgb(138, 134, 141);
+    position: relative;
+    height: 2px;
+    width: 98%;
+    margin: 0 1rem;
+}
+
+table{
+    border: 1.5px solid black;
+    width: 90%;
+    position: relative;
+    transform: scale(0.97);
+    /* margin-top: 4rem; */
+}
+ table tr th{
+    border: 1px solid black;
+    /* text-align: center; */
+ }
+    table tr td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+table .timebox{
+    border: 1px solid black;
+}
+
+
+
 /*********** Global classes end **********/
 
 
@@ -202,7 +247,7 @@ nav{
     width: 98%;
     background: white;
     z-index: 2;
-    box-shadow: 1px 15px 20px rgb(165, 155, 155);
+    box-shadow: 0px 1px 7px rgb(165, 155, 155);
     margin: 0rem 6rem auto 0.7rem;
     height: 0rem;
     min-height: 4.4rem;
