@@ -8,6 +8,7 @@
 @import url(./fastfood.css);
 @import url(./foods.css);
 @import url(./mytable.css);
+@import url(./cards.css);
 
 
 
@@ -231,7 +232,7 @@ hr{
     position: relative;
     height: 2px;
     width: 98%;
-    margin:0.4rem 1rem;
+    margin:0.1rem 1rem;
 }
 
 table{
@@ -369,15 +370,15 @@ nav .toggle-collapse .toggle-icons i{
 main .container{
     background-image: url(../assets/burger.jpg);
     position: relative;
-    margin: 10rem 0 0 0;
+    margin: 5rem 0 0 0;
     width: 100%;
-    padding: 10rem 0;
+    padding: 8rem 0;
     background-size:700px;
     background-repeat: no-repeat;
 
 }
 
-.search-box{
+main .search-box{
     position: relative;
     margin: 0rem 5rem 0 50%;
     text-align: center;
@@ -404,7 +405,7 @@ main .site-main{
     left: 50%;
     width: 44%;
     padding: 1rem;
-    box-shadow: 0 12px 15px rgb(126, 121, 121);
+    box-shadow: 0 6px 15px rgb(126, 121, 121);
     border-radius: 1rem;
 }
 
@@ -414,125 +415,18 @@ main .container .site-main .site-title{
 
 
 
-/* cards start */
-
-
-.products{
-    position: relative;
-    margin: 0rem 0rem;
-    text-align: center;
-    padding: 1rem;
-    z-index: 0;
-    overflow: hidden;
-}
-
-.carousel{
-    margin:1rem;
-    display: grid;
-    grid-template-columns:repeat(4,1fr);
-    transform: scale(0.99);
-    position: relative;
-}
-
- .products .product-items{
-    margin: 1.6rem;
-    box-shadow: 0px 10px 20px rgb(122, 114, 114);
-    border:1px solid rgb(123, 123, 134);
-    padding: 0.1rem;
-    background:rgb(245, 244, 245);
-    border-radius: 0.6rem;
-    min-height: 420px;
-    max-height: 600px;
-}
-
-
- .products .product-items .product-image{
-    width: 100%;
-    overflow: hidden;
-    transition: 0.5s ease-in-out;
-    border-radius: 0.6rem;
-    margin-bottom: 1rem;
-    max-height: 340px;
-    min-height: 230px;
-}
-
-
- .products .product-items img{
-    width: 100%;
-    transition: 0.5s ease-in-out;
-    min-height: 210px;
-    max-height: 235px;
-
-}
-
-
- .products .product-items img:hover{
-    transform: scale(1.3);
-    
-}
-
-
-/* Cards end */
-
-
-
-
 
 
 /*-------------Footer body starts-------------*/
-footer .footer-body{
-    background: rgb(68, 68, 71);
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    padding: 0.3rem 0.5rem 0.5rem 0.5rem;
-    height: 300px;
-}
-
-footer .footer-body>div{
-    margin: 0.03rem;
-    background: rgb(39, 37, 37);
-    padding: 1rem;
-}
-
-footer h2{
-    color: rgb(243, 232, 232);
-}
-footer h3{
-    color: rgb(243, 232, 232);
-}
-footer p{
-    padding-top: 0.5rem;
-    color: rgb(148, 143, 143);
-}
-footer .small-contact-us p{
-    font-size: 12px;
-}
-footer .news-notices{
-    padding-bottom: 1rem;
-}
-footer a{
-    color: rgb(216, 35%202, 202);
-    font-size: medium;
-}
-footer a:hover{
-    color: rgb(97, 91, 91) !important;
-}
-footer .copyright{
-    display: flex;
-    justify-content: center;
-    background: rgb(79, 79, 107);
-    outline: none;
-    padding: 1rem;
-}
-footer h4{
-    color: rgb(216, 202, 202);
-}
 
 
 /**************Footer ends************/
 
 @media only screen and (max-width:910px){
 
+    .nav{
+        width: 97%;
+    }
     nav .nav-menu{
         display: flex;
         flex-direction: column;
@@ -572,108 +466,86 @@ footer h4{
 
 }
 
-@media only screen and (max-width:491px){
 
+@media only screen and (max-width:780px){
 
-        
-.carousel{
-    margin: 0 3rem;
-    display: grid;
-    grid-template-columns:repeat(4,1fr);
-    transform: scale(0.99);
-    position: relative;
-    left: 40%;
+.nav{
+    width: 96%;
+}
+
+main .search-box{
+    margin: 0rem 5rem 0 30%;
+    left: 20%;
     transform: translate(-50%);
 }
 
-.products .product-items{
-    margin: 1.6rem;
-    box-shadow: 0px 10px 20px rgb(122, 114, 114);
-    border:1px solid rgb(123, 123, 134);
-    padding: 0.1rem;
-    background:rgb(245, 244, 245);
-    border-radius: 0.6rem;
-    min-height: 530px;
-    max-height: 800px;
+main .site-main{
+    top: 0%;
+    left: 50%;
+    width: 64%;
+    padding: 1rem;
+    transform: translate(-50%);
 }
-     
 
+
+}
+    
+
+@media only screen and (max-width:600px){
+
+.nav{
+    width: 94%;
+}
+
+
+main .site-main{
+    top: 10%;
+    left: 50%;
+    width: 74%;
+    transform: translate(-50%);
+
+}
+
+main .search-box{
+   width: 50%;
+   left: 20%;
+   transform: translate(-50%);
+}
+
+}
+    
+
+@media only screen and (max-width:590px){
+
+
+}
+
+@media only screen and (max-width:490px){
+
+ 
 
 .products .product-items .product-image{
-    width: 100%;
-    overflow: hidden;
-    transition: 0.5s ease-in-out;
-    border-radius: 0.6rem;
-    margin-bottom: 1rem;
-    max-height: 640px;
-    min-height: 345px;
+    max-height: 340px;
+    min-height: 270px;
 }
-
 
 .products .product-items img{
-    width: 100%;
-    transition: 0.5s ease-in-out;
-    min-height: 300px;
-    max-height: 380px;
+    min-height: 270px;
+    max-height: 340px;
 
 }
 
-
+.products .product-items{
+    min-height: 450px;
+    max-height: 470px;
 }
+ 
 
-@media only screen and (max-width:470px){
 
-
-    .products .product-items .product-image{
-        max-height: 640px;
-        min-height: 285px;
-    }
-    
-    .products .product-items img{
-        min-height: 250px;
-        max-height: 300px;
-    
-    }
-    
-    .products .product-items{
-        min-height: 470px;
-        max-height: 700px;
-    }
-         
     
 }
 
 @media only screen and (max-width:370px){
-
-
-        
-.carousel{
-    margin: 0;
-    display: grid;
-    grid-template-columns:repeat(4,1fr);
-    transform: scale(0.99);
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-.products .product-items .product-image{
-    max-height: 640px;
-    min-height: 215px;
-}
-
-.products .product-items img{
-    min-height: 220px;
-    max-height: 250px;
-
-}
-
-.products .product-items{
-    min-height: 370px;
-    max-height: 700px;
-}
- 
-
 
 
      
