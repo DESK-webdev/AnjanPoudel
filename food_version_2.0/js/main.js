@@ -17,10 +17,10 @@ const responsive={
         items:3
     },
     1200:{
-        items:3
+        items:4
     },
     1550:{
-        items:4
+        items:5
     }
 }
 
