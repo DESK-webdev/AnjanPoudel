@@ -11,7 +11,73 @@
 
 <!------------ link to all ------------>
 <link rel="stylesheet" href="css/all.css">
+<style>
 
+
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 00ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.close{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.popup h3{
+    margin:0 0 1rem 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.btn-login{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    position: relative;
+    left: 45%;
+    transform: translate(-50%);
+
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup .content {
+  max-height: 0%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+</style>
 <body>
 
 <!--Login Section-->
@@ -43,13 +109,21 @@
             <button class="btn" type="submit">
                 Submit
             </button>
-            <a href="./register_form.html" class="btn">Create account</a>
+            <a href="#popup1" class="btn">Create account</a>
         </form>
     </div>
 </div>
 
 
 
-
+<div id="popup1" class="overlay">
+	<div class="popup">
+		<h3>Choose between two,</h3>
+		<a class="close" href="#">&times;</a>
+		<a href="./register_form.html" class="btn btn-login small">As Student</a>
+		<a href="./register_form.html" class="btn btn-login small btn-right-up">As Hotel</a>
+		
+	</div>
+</div>
 </body>
 </html>

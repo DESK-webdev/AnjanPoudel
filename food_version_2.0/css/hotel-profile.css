@@ -1,15 +1,14 @@
 
-
 .profile .profile-hotel{
     display: grid;
     grid-template-columns: 45% 55%;
     margin: 7rem 1rem 1rem 1rem;
+    box-shadow: 0 8px 10px blue;
 }
 
 .hotel-pic{
     background: rgb(49, 168, 19);
     padding: 0.2rem;
-    box-shadow: 0 8px 10px blue;
     margin: 2rem;
 }
 
