@@ -1,6 +1,4 @@
 
-
-
 .message-box{
     margin: 1rem;
     display: flex;
@@ -16,7 +14,7 @@
     transition: opacity 500ms;
     visibility: visible;
     opacity: 1;
-        z-index: 1;
+    z-index: 1;
 
 }
 
@@ -47,6 +45,7 @@
     height: 80%;
     background: rgb(246, 246, 246);
     overflow-y: scroll;
+    overflow-x: hidden;
     
 
 }
@@ -108,12 +107,12 @@
 
 
 .msgbody .message-your{
-    background: rgb(206, 211, 219);
-    float: right;
-    width: fit-content;
+    background: rgb(198, 199, 201);
     padding: 0.5rem 1rem;
     margin: 1rem;
     border-radius: 0.4rem;
+    width: fit-content;
+  
 }
 
 .display-no-table{
@@ -135,12 +134,21 @@ span{
     display: none;
 }
 
-.msgwhole:hover>.message-seen span{
+.msgleft:hover>.seendiv .message-seen span{
+    display: initial;
+}
+.msgright:hover>.seendiv .message-seen span{
     display: initial;
 }
 
-.msg{
-    float: right;    
-    background: #000;
+.msgright{
+    float: right;
+    max-width: 60%;
 }
+
+.seendivright{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 
