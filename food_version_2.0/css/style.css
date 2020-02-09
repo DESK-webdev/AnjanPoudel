@@ -256,6 +256,9 @@ table .timebox{
     border: 1px solid black;
 }
 
+.m0{
+    margin: 0rem !important;
+}
 
 
 /*********** Global classes end **********/
@@ -370,10 +373,10 @@ nav .toggle-collapse .toggle-icons i{
 main .container{
     background-image: url(../assets/burger.jpg);
     position: relative;
-    margin: 5rem 0 0 0;
+    margin: 5rem 0 -5rem 0;
     width: 100%;
     padding: 8rem 0;
-    background-size:700px;
+    background-size:600px;
     background-repeat: no-repeat;
 
 }
@@ -387,7 +390,7 @@ main .search-box{
     width: 90%;
 }
 
-.search-box input{
+main .search-box input{
     padding: 0.9rem;
     border-radius:0.4rem ;
     border:1px solid black;

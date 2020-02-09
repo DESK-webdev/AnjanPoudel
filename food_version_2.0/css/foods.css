@@ -1,5 +1,46 @@
 
 
+
+
+.fastfood-search{
+    position: relative;
+    width: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
+.fastfood-search-box{
+    background: rgb(18, 78, 199);
+    width: 100%;
+    padding: 0.2rem;
+    height: 40px;
+    position: relative;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.fastfood-search-box .searchinput{
+    padding:0.5rem 1rem;
+    width: 100%;
+    display: flex;
+    }
+
+
+
+.fastfood-search-box .searchbtn{
+    padding: 0.4rem 0.6rem;
+    background: rgb(18, 78, 199);
+    border: transparent;
+}
+    
+
+.fastfood-search-box .searchbtn i{
+    color: white;
+}
+
 .text{
     margin-top: 1rem;
     margin-bottom: 0rem; 
