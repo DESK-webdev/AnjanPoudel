@@ -4,7 +4,6 @@
 @import url(./hotel-profile.css);
 @import url(./customer-profile.css);
 @import url(./view_it.css);
-@import url(./hotels.css);
 @import url(./fastfood.css);
 @import url(./foods.css);
 @import url(./mytable.css);
@@ -67,7 +66,7 @@ h2{
 }
 
 h3{
-    font-size:30px;
+    font-size:25px;
     font-family: Abel;
     color: var(--text-gray);
     text-align: center;
@@ -173,6 +172,7 @@ td{
 h4{
     font-size: 1.1rem;
     font-family:Livvic;
+
 }
 
 .left{
@@ -189,9 +189,7 @@ h4{
 }
 
 img{
-    width: 100%;
-   
-    transform: scale(1.1);
+    width: 100%;   
 }
 
 
@@ -218,7 +216,7 @@ img{
 
 
 .nav_down{
-    margin-top:7rem;
+    margin-top:4.6rem;
 }
 
 
